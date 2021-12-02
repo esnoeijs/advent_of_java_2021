@@ -2,7 +2,7 @@ package days;
 
 import java.util.Arrays;
 
-public class Day1 {
+public class Day1 implements Day {
 
     public int solve1(String[] args) {
         int[] numbers = Arrays.stream(args).mapToInt(Integer::parseInt).toArray();
