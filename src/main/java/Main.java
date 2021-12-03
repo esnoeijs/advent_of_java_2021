@@ -5,12 +5,14 @@ import java.util.ArrayList;
 import days.Day;
 import days.Day1;
 import days.Day2;
+import days.Day3;
 
 public class Main {
     public static void main(String[] args) {
         switch (args[0]) {
             case "day1" -> Main.runDay(new Day1(), "inputs/day1");
             case "day2" -> Main.runDay(new Day2(), "inputs/day2");
+            case "day3" -> Main.runDay(new Day3(), "inputs/day3");
             default -> System.out.println("Unknown day");
         }
     }
